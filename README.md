@@ -2,7 +2,6 @@
 Set the number of columns in the "applications" view.
 
 ## Installation
-The better option is to install it from https://extensions.gnome.org/
 
 > How to manually install the extension ?
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="appdisplay-personalization">
+	<schema id="org.gnome.shell.extensions.appdisplay-personalization" path="/org/gnome/shell/extensions/appdisplay-personalization/">
+    <key type="i" name="columns-max">
+      <default>6</default>
+      <summary>max number of columns</summary>
+      <description>Set the maximum limit of columns in the application view.</description>
+    </key>
+	</schema>
+</schemalist>

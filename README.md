@@ -1,7 +1,9 @@
-# Appdisplay's Columns (Gnome extension)
+## Appdisplay's Columns (Gnome extension)
 Set the number of columns in the "applications" view (by default, the maximum is only 6)
 
-## Installation
+This is an incomplete draft which has been merged in the code of this other project : https://github.com/Maestroschan/appfolders-manager-gnome-extension
+
+### Installation
 
 > How to install the extension ?
 

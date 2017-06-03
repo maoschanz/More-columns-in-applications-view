@@ -7,7 +7,7 @@ This is an incomplete draft which has been merged in the code of this other proj
 
 > How to install the extension ?
 
-It's not on the official website yet so you have to do it manually :
+It's not on the official website so you have to install it manually :
 
 Download files and put them in an `appdisplay-personalization@maestroschan.fr` folder created into `~/.local/share/gnome-shell/extensions/`
 

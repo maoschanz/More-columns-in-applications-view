@@ -3,7 +3,7 @@ const GObject = imports.gi.GObject;
 const Gtk = imports.gi.Gtk;
 const Lang = imports.lang;
 
-const Gettext = imports.gettext.domain('appdisplay-personalization');
+const Gettext = imports.gettext.domain('set-columns');
 const _ = Gettext.gettext;
 
 const ExtensionUtils = imports.misc.extensionUtils;
@@ -33,9 +33,9 @@ const osefSettingsWidget = new GObject.Class({
 		let labelMain = '<b>' + _("Modifications will be effective after reloading the extension.") + '</b>';
 		this.add(new Gtk.Label({ label: labelMain, use_markup: true, halign: Gtk.Align.START }));
 		
-		this._settings = Convenience.getSettings('org.gnome.shell.extensions.appdisplay-personalization');
+		this._settings = Convenience.getSettings('org.gnome.shell.extensions.set-columns');
 		
-		let label = _("Maximum number of rows :");
+		let label = _("Maximum number of columns :");
 		
 		let nbColumns = new Gtk.SpinButton();
         nbColumns.set_sensitive(true);
@@ -53,6 +53,7 @@ const osefSettingsWidget = new GObject.Class({
 		hBox.pack_start(new Gtk.Label({ label: label, use_markup: true, halign: Gtk.Align.START }), false, false, 0);
 		hBox.pack_end(nbColumns, false, false, 0);
 		this.add(hBox);
+		
 	}
 });
 

@@ -1,16 +1,25 @@
-## More columns in applications view (GNOME Shell extension)
-Set the number of columns in the "applications" view (by default, the maximum is only 6)
+# More columns in applications view (GNOME Shell extension)
+Set the number of columns in the "applications grid" view (by default, the maximum is only 6)
 
-### Installation
+----
+
+## Installation
+
+After the installation, you need to restart GNOME Shell ("logout and login again", or <kbd>Alt</kbd>+<kbd>F2</kbd>, `r`, <kbd>Enter</kbd>).
 
 #### For Arch Linux users
-Arch Linux users can install gnome-shell-extension-more-columns-in-applications-view-git from AUR.
+
+Arch Linux users can install `gnome-shell-extension-more-columns-in-applications-view-git` from AUR
 
 #### From the GNOME website
 
-https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/
+You can get in from [here](https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/)
 
-You may need to restart the gnome shell environnment ("logout and login again", or alt+f2 + r + enter).
+#### From this repo
+
+Clone the repo and run `./install.sh`
+
+----
 
 ## Screenshot
 
